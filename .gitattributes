@@ -1,14 +1,6 @@
 # ===================================================
 # JS        ========================================
 # ===================================================
-#Internal variable which enables various workarounds to 
-#enable Git to work better on filesystems that are not case sensitive, 
-#like APFS, HFS+, FAT, NTFS, etc. 
-#For example, if a directory listing finds "makefile" when Git expects "Makefile", 
-#Git will assume it is really the same file, and continue to remember it as "Makefile".
-# ===================================================
-ignorecase = true
-# ===================================================
 # Set the default behavior, in case people don't have
 # core.autocrlf set. https://git-scm.com/docs/gitattributes
 # ===================================================
